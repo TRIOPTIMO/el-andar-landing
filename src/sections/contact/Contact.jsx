@@ -136,6 +136,37 @@ function ContactSection() {
           Enviar Email
         </Button>
       </Stack>
+
+      {/* Mapa con Google Maps centrado */}
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+          mt: 6,
+        }}
+      >
+        <Box
+          sx={{
+            width: { xs: "90%", md: "50%" },
+            height: { xs: 300, md: 450 },
+            borderRadius: 2,
+            overflow: "hidden",
+            boxShadow: 3,
+          }}
+        >
+          <iframe
+            title="Ubicación Parque Mariano Alvarado"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.6911608446925!2d-62.001111!3d-30.712222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzQ0LjAiUyA2MsKwMDAnMDQuMCJX!5e0!3m2!1ses!2sar!4v1694100000000"
+          ></iframe>
+        </Box>
+      </Box>
     </Box>
   );
 }

@@ -142,7 +142,7 @@ function Hero() {
                                     }}
                                 >
                                     <Stack direction="row" spacing={2} alignItems="center">
-                                        <Avatar sx={{ bgcolor: "colors.secondary" }}>
+                                        <Avatar sx={{ bgcolor: "colors.secondary", color: "colors.primary" }}>
                                             <Star />
                                         </Avatar>
                                         <Box>
