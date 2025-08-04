@@ -114,7 +114,7 @@ function Hero() {
                         >
                             <img
                                 src="/images/hero.webp"
-                                alt="Descripción"
+                                alt="Niño realizando equinoterapia en Córdoba"
                                 style={{
                                     width: "100%",
                                     height: "500px",

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://el-andar-landing.onrender.com/sitemap.xml
