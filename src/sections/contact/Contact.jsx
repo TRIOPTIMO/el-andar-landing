@@ -155,16 +155,15 @@ function ContactSection() {
             boxShadow: 3,
           }}
         >
-          <iframe
-            title="Ubicación Parque Mariano Alvarado"
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3430.032870860006!2d-61.996179!3d-30.7174763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943503bf58938a17%3A0x49d4101db7d165a5!2sEQUINOTERAPIA%20%22EL%20ANDAR%22%20ESCUELA%20Y%20REHABILITACI%C3%93N!5e0!3m2!1ses!2ses!4v1754297808669!5m2!1ses!2ses" 
+           title="Escuela de Equinoterapia El Andar"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             loading="lazy"
             allowFullScreen
-            referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.6911608446925!2d-62.001111!3d-30.712222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzQ0LjAiUyA2MsKwMDAnMDQuMCJX!5e0!3m2!1ses!2sar!4v1694100000000"
-          ></iframe>
+            referrerPolicy="no-referrer-when-downgrade"></iframe>
         </Box>
       </Box>
     </Box>
