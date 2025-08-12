@@ -12,14 +12,14 @@ function Nav() {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Box display="flex" alignItems="center" gap={2}>
           <img
-                src="/images/logoGreen.jpg"
-                alt="Descripción"
-                style={{
-                  width: 40,
-                  height: 40,
-                  display: "block",
-                }}
-              />
+            src="/images/logo.png"
+            alt="Descripción"
+            style={{
+              width: 40,
+              height: 40,
+              display: "block",
+            }}
+          />
           <Box>
             <Typography variant="h6" sx={{ color: "colors.secondary", fontWeight: 700 }}>
               El Andar
@@ -66,6 +66,14 @@ function Nav() {
 
         <Button
           variant="contained"
+          onClick={() =>
+            window.open(
+              `https://wa.me/5491123456789?text=${encodeURIComponent(
+                "Hola, me gustaría recibir más información"
+              )}`,
+              "_blank"
+            )
+          }
           sx={{
             backgroundColor: "colors.secondary",
             color: "colors.primary",

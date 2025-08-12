@@ -76,7 +76,7 @@ function AboutSection() {
           >
             <Box
               component="img"
-              src="images/abour.webp"
+              src="images/caballo.jpg"
               alt="Equipo profesional de El Andar"
               width="100%"
               height="auto"

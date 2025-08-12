@@ -112,6 +112,14 @@ function DonationSection() {
                       <Button
                         fullWidth
                         variant="contained"
+                        onClick={() =>
+                          window.open(
+                            `https://wa.me/5491123456789?text=${encodeURIComponent(
+                              "Hola, me gustaría recibir más información"
+                            )}`,
+                            "_blank"
+                          )
+                        }
                         sx={{
                           mt: 2,
                           color: "colors.primary",
@@ -160,9 +168,18 @@ function DonationSection() {
                           color: "#1565c0",
                           ":hover": { bgcolor: "#e3f2fd" },
                         }}
+                        onClick={() =>
+                          window.open(
+                            `https://wa.me/5491123456789?text=${encodeURIComponent(
+                              "Hola, me gustaría recibir más información"
+                            )}`,
+                            "_blank"
+                          )
+                        }
                       >
                         Contactar
                       </Button>
+
                     </CardContent>
                   </Card>
                 )}

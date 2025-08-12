@@ -88,25 +88,35 @@ function Footer() {
               Ayuda
             </Typography>
             <Stack spacing={1}>
-              {["Donar", "Ser Padrino", "Voluntariado", "Feria Americana"].map(
-                (item, idx) => (
-                  <Typography
-                    key={idx}
-                    component="span"
-                    sx={{
-                      cursor: "pointer",
-                      color: "gray",
-                      transition: "color 0.3s",
-                      "&:hover": {
-                        color: "white",
-                      },
-                    }}
-                  >
-                    {item}
-                  </Typography>
-                )
-              )}
+              {[
+                { label: "Donar", message: "Hola, quiero más información para donar" },
+                { label: "Ser Padrino", message: "Hola, me interesa ser padrino" },
+                { label: "Voluntariado", message: "Hola, quiero participar como voluntario" },
+                { label: "Feria Americana", message: "Hola, quiero información sobre la feria americana" },
+              ].map((item, idx) => (
+                <Typography
+                  key={idx}
+                  component="span"
+                  onClick={() =>
+                    window.open(
+                      `https://wa.me/5491123456789?text=${encodeURIComponent(item.message)}`,
+                      "_blank"
+                    )
+                  }
+                  sx={{
+                    cursor: "pointer",
+                    color: "gray",
+                    transition: "color 0.3s",
+                    "&:hover": {
+                      color: "white",
+                    },
+                  }}
+                >
+                  {item.label}
+                </Typography>
+              ))}
             </Stack>
+
           </Grid>
         </Grid>
 

@@ -96,7 +96,15 @@ function Hero() {
                                     >
                                         Conocer más
                                     </Button>
-                                    <Button variant="outlined" color="success" startIcon={<Gift />}>
+                                    <Button 
+                                        component={ScrollLink}
+                                        to={"donation"}
+                                        smooth={true}
+                                        duration={500}
+                                        spy={true}
+                                        variant="outlined" 
+                                        color="success" 
+                                        startIcon={<Gift />}>
                                         Ser Padrino
                                     </Button>
                                 </Stack>
