@@ -3,6 +3,7 @@ import Hero from "./sections/hero/Hero";
 import About from "./sections/about/About";
 import Mission from "./sections/mission/Mission";
 import Donation from "./sections/donation/Donation";
+import Services from "./sections/services/Services";
 import WhyCollaborate from "./sections/whyCollaborate/WhyCollaborate";
 import Contact from "./sections/contact/Contact"
 import Footer from "./sections/layout/Footer"
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Mission/>
       <Donation/>
+      <Services/>
       <WhyCollaborate/>
       <Contact/>
     <Footer/>

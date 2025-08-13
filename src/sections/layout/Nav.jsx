@@ -36,6 +36,7 @@ function Nav() {
             { label: "Nosotros", to: "about" },
             { label: "Misión", to: "mission" },
             { label: "Colaborar", to: "collaborate" },
+            { label: "Servicios", to: "services" },
             { label: "Contacto", to: "contact" },
           ].map(({ label, to }) => (
             <Link
