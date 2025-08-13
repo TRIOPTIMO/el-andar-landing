@@ -14,6 +14,7 @@ import {
   Phone,
   Mail,
 } from "@mui/icons-material";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import { motion } from "framer-motion";
 
 function ContactSection() {
@@ -109,6 +110,14 @@ function ContactSection() {
         <Button
           size="large"
           variant="contained"
+          onClick={() =>
+                          window.open(
+                            `https://wa.me/5491123456789?text=${encodeURIComponent(
+                              "Hola, me gustaría recibir más información"
+                            )}`,
+                            "_blank"
+                          )
+                        }
           sx={{
             bgcolor: "#fff",
             color: "#16a34a",
@@ -116,13 +125,14 @@ function ContactSection() {
             px: 4,
             '&:hover': { bgcolor: "#f0fdf4" },
           }}
-          startIcon={<Phone sx={{ color: "#16a34a" }} />}
+          startIcon={<WhatsApp sx={{ color: "#16a34a" }} />}
         >
-          Llamar Ahora
+          Enviar Mensaje
         </Button>
         <Button
           size="large"
           variant="outlined"
+          href="mailto:contacto@tudominio.com?subject=Consulta&body=Hola,%20me%20gustaría%20recibir%20más%20información."
           sx={{
             borderColor: "#fff",
             color: "#fff",
@@ -136,7 +146,58 @@ function ContactSection() {
           Enviar Email
         </Button>
       </Stack>
+      <Stack
+        direction="row"
+        spacing={3}
+        justifyContent="center"
+        alignItems="center"
+        mt={4}
+      >
+        <Button
+          component="a"
+          href="https://www.facebook.com/escueladeequinoterapia.elandar/"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            minWidth: "auto",
+            p: 1.5,
+            bgcolor: "rgba(255,255,255,0.1)",
+            "&:hover": { bgcolor: "rgba(255,255,255,0.2)" },
+          }}
+        >
+          <Facebook sx={{ color: "#fff", fontSize: 30 }} />
+        </Button>
 
+        <Button
+          component="a"
+          href="https://www.instagram.com/elandar.morteros/?locale=ar-en&hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            minWidth: "auto",
+            p: 1.5,
+            bgcolor: "rgba(255,255,255,0.1)",
+            "&:hover": { bgcolor: "rgba(255,255,255,0.2)" },
+          }}
+        >
+          <Instagram sx={{ color: "#fff", fontSize: 30 }} />
+        </Button>
+
+        <Button
+          component="a"
+          href="https://wa.me/5491123456789?text=Hola!%20Quiero%20más%20información"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            minWidth: "auto",
+            p: 1.5,
+            bgcolor: "rgba(255,255,255,0.1)",
+            "&:hover": { bgcolor: "rgba(255,255,255,0.2)" },
+          }}
+        >
+          <WhatsApp sx={{ color: "#fff", fontSize: 30 }} />
+        </Button>
+      </Stack>
       {/* Mapa con Google Maps centrado */}
       <Box
         sx={{
@@ -148,6 +209,7 @@ function ContactSection() {
       >
         <Box
           sx={{
+            position: "relative",
             width: { xs: "90%", md: "50%" },
             height: { xs: 300, md: 450 },
             borderRadius: 2,
@@ -155,15 +217,34 @@ function ContactSection() {
             boxShadow: 3,
           }}
         >
-          <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3430.032870860006!2d-61.996179!3d-30.7174763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943503bf58938a17%3A0x49d4101db7d165a5!2sEQUINOTERAPIA%20%22EL%20ANDAR%22%20ESCUELA%20Y%20REHABILITACI%C3%93N!5e0!3m2!1ses!2ses!4v1754297808669!5m2!1ses!2ses" 
-           title="Escuela de Equinoterapia El Andar"
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3430.032870860006!2d-61.996179!3d-30.7174763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943503bf58938a17%3A0x49d4101db7d165a5!2sEQUINOTERAPIA%20%22EL%20ANDAR%22%20ESCUELA%20Y%20REHABILITACI%C3%93N!5e0!3m2!1ses!2ses!4v1754297808669!5m2!1ses!2ses"
+            title="Escuela de Equinoterapia El Andar"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <Button
+            variant="contained"
+            size="small"
+            component="a"
+            href="https://www.google.com/maps/place/EQUINOTERAPIA+%22EL+ANDAR%22+ESCUELA+Y+REHABILITACIÓN/@-30.7174763,-61.996179,17z/"
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              position: "absolute",
+              bottom: 12,
+              right: 12,
+              bgcolor: "colors.secondary",
+              color: "colors.white",
+              fontWeight: 600,
+              "&:hover": { bgcolor: "colors.tertiary" },
+            }}
+          >
+            Ver en Maps
+          </Button>
         </Box>
       </Box>
     </Box>
