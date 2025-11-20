@@ -112,7 +112,7 @@ function ContactSection() {
           variant="contained"
           onClick={() =>
                           window.open(
-                            `https://wa.me/5491123456789?text=${encodeURIComponent(
+                            `https://wa.me/5493562417611?text=${encodeURIComponent(
                               "Hola, me gustaría recibir más información"
                             )}`,
                             "_blank"
@@ -132,7 +132,7 @@ function ContactSection() {
         <Button
           size="large"
           variant="outlined"
-          href="mailto:contacto@tudominio.com?subject=Consulta&body=Hola,%20me%20gustaría%20recibir%20más%20información."
+          href="mailto:elandar.equino@gmail.com?subject=Consulta&body=Hola,%20me%20gustaría%20recibir%20más%20información."
           sx={{
             borderColor: "#fff",
             color: "#fff",
@@ -185,7 +185,7 @@ function ContactSection() {
 
         <Button
           component="a"
-          href="https://wa.me/5491123456789?text=Hola!%20Quiero%20más%20información"
+          href="https://wa.me/5493562417611?text=Hola!%20Quiero%20más%20información"
           target="_blank"
           rel="noopener noreferrer"
           sx={{

@@ -69,7 +69,7 @@ function Nav() {
           variant="contained"
           onClick={() =>
             window.open(
-              `https://wa.me/5491123456789?text=${encodeURIComponent(
+              `https://wa.me/5493562417611?text=${encodeURIComponent(
                 "Hola, me gustaría recibir más información"
               )}`,
               "_blank"

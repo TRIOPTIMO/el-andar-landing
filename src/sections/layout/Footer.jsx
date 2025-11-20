@@ -99,7 +99,7 @@ function Footer() {
                   component="span"
                   onClick={() =>
                     window.open(
-                      `https://wa.me/5491123456789?text=${encodeURIComponent(item.message)}`,
+                      `https://wa.me/5493562417611?text=${encodeURIComponent(item.message)}`,
                       "_blank"
                     )
                   }

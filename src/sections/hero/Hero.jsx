@@ -73,8 +73,7 @@ function Hero() {
 
                             <motion.div variants={fadeIn} custom={2} initial="hidden" whileInView="visible" viewport={{ once: true }}>
                                 <Typography variant="h6" color="colors.darkBlue">
-                                    Somos una escuela pionera en Córdoba, dedicada a la rehabilitación e inclusión de personas con
-                                    desafíos del desarrollo mediante terapia asistida con caballos.
+                                    Somos una escuela pionera en Córdoba, dedicada a la rehabilitación e inclusión de personas en situación de discapacidad, mediante terapias asistidas con caballos. 
                                 </Typography>
                             </motion.div>
 

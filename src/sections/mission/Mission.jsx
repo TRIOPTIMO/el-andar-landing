@@ -28,7 +28,7 @@ function MissionSection() {
       icon: <Users sx={{ fontSize: 32, color: "#8e24aa" }} />,
       bgColor: "#e1bee7",
       description:
-        "Facilitamos el acceso a la equinoterapia a personas que lo necesitan para una mejor calidad de vida, especialmente a aquellas con dificultades económicas.",
+        "Facilitamos el acceso a la equinoterapia a personas que lo necesitan para una mejor calidad de vida.",
     },
     {
       title: "Economía Circular",
@@ -76,7 +76,7 @@ function MissionSection() {
               maxWidth="sm"
               mx="auto"
             >
-              Enfocados en la rehabilitación y la inserción de las personas con desafíos del desarrollo
+              Promovemos la inclusión y la calidad de vida de nuestros jinetes, a través del vínculo con el animal, la naturaleza y el trabajo interdisciplinario.
             </Typography>
       </motion.div>
         </Box>

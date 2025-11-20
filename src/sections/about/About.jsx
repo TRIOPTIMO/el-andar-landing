@@ -18,6 +18,7 @@ function AboutSection() {
     "Psicopedagogos",
     "Docentes Especiales",
     "Acompañantes Terapéuticos",
+    "Instructores Ecuestres"
   ];
 
   const fadeIn = {
@@ -53,7 +54,7 @@ function AboutSection() {
             </Typography>
             <Typography variant="h6" sx={{ color: "colors.darkBlue" }}>
               Fundada el 27 de abril de 2004, somos pioneros en la provincia de Córdoba entre
-              las escuelas de equinoterapia, ubicados en el sector Sur del Parque Mariano
+              los centros de equinoterapia, ubicados en el sector Sur del Parque Mariano
               Alvarado de Morteros.
             </Typography>
           </Box>

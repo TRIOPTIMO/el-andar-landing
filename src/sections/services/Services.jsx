@@ -18,16 +18,16 @@ export default function Services() {
       description:
         "La equinoterapia es una terapia asistida con caballos que ayuda a mejorar la motricidad, el equilibrio, la autoestima y la comunicación en personas con diversas necesidades.",
       cta: "Solicitar Información",
-      link: "https://wa.me/5491123456789?text=Hola!%20Quiero%20más%20información%20sobre%20Equinoterapia",
-      image: "/images/equinoterapia.jpg",
+      link: "https://wa.me/5493562417611?text=Hola!%20Quiero%20más%20información%20sobre%20Equinoterapia",
+      image: "/images/equinoterapia.webp",
       imageAlt: "Sesión de equinoterapia",
     },
     {
-      title: "Clases de Monta",
+      title: "Equitación",
       description:
         "Ofrecemos clases de monta para todas las edades y niveles, desde principiantes hasta avanzados. Aprende a montar y conectar con el caballo en un entorno seguro y profesional.",
       cta: "Inscribirme",
-      link: "https://wa.me/5491123456789?text=Hola!%20Quiero%20inscribirme%20en%20las%20clases%20de%20monta",
+      link: "https://wa.me/5493562417611?text=Hola!%20Quiero%20inscribirme%20en%20las%20clases%20de%20monta",
       image: "/images/monta.jpg",
       imageAlt: "Clase de monta",
     },
